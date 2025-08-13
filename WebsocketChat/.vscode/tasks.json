@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "go",
+      "label": "go: build package",
+      "command": "build",
+      "args": ["${fileDirname}"],
+      "problemMatcher": ["$go"],
+      "group": "build",
+      "detail": "cd /home/gmo/Tran_Vu_Thanh_Lam/GOLANG_learn_new_tech/WebsocketChat; go build ${fileDirname}"
+    }
+  ]
+}
