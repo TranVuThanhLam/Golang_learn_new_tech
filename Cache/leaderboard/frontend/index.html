@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Leaderboard</title>
+    <style>
+        body { font-family: Arial; max-width: 600px; margin: 0 auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h1>Leaderboard</h1>
+    
+    <div>
+        <input id="user_id" placeholder="User ID">
+        <input id="score" placeholder="Score" type="number">
+        <button onclick="updateScore()">Update Score</button>
+    </div>
+
+    <h2>Top 10</h2>
+    <table id="leaderboard">
+        <thead>
+            <tr><th>Rank</th><th>User</th><th>Score</th></tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
